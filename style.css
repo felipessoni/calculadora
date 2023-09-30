@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+}
+
+#calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    background-color: #999797;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 15px;
+    font-size: 24px;
+}
+
+/* Estilos para os botões */
+button {
+    width: 25%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 2px;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo para os botões de operações (+, -, *, /) */
+.button-operation {
+    background-color: #f1d49c; /* Laranja */
+    color: #0a0a0a; /* Texto branco */
+    border: 1px solid #000; /* Borda preta */
+}
+
+/* Adicione Media Queries para ajustar o layout em telas menores */
+@media screen and (max-width: 600px) {
+    #calculator {
+        max-width: 90%;
+    }
+
+    button {
+        width: 30%;
+        font-size: 16px;
+    }
+}
+/* Estilos para o botão de igual (=) */
+.equal-button {
+    width: 80%; /* Largura igual aos outros botões de operação */
+    padding: 10px;
+    font-size: 18px; /* Ajuste o tamanho da fonte, se necessário */
+    margin: 2px;
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #ecc57b; /* Laranja */
+    color: #080808; /* Texto branco */
+    border: 1px solid #000; /* Borda preta */
+}
